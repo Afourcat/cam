@@ -3,8 +3,7 @@
 
 //! A library for 3D camera and navigation.
 
-extern crate vecmath;
-extern crate quaternion;
+extern crate cgmath;
 
 pub use camera::{
     Camera,

@@ -1,5 +1,4 @@
 [package]
-
 name = "piston3d-cam"
 version = "0.4.0"
 authors = [
@@ -14,10 +13,8 @@ repository = "https://github.com/pistondevelopers/cam.git"
 homepage = "https://github.com/pistondevelopers/cam"
 
 [lib]
-
 name = "cam"
 path = "src/lib.rs"
 
 [dependencies]
-vecmath = "1.0.0"
-quaternion = "0.4.0"
+cgmath = "0.17.0"
